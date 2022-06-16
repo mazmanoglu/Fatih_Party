@@ -20,8 +20,6 @@ namespace Fatih_Party.Models
         public string EmailAdress { get; set; }
 
         [Required]
-        [Phone]
-        [DataType(DataType.PhoneNumber, ErrorMessage = "Not a valid phone number")]
         [Display(Name = "Your Phone Number")]
         public string PhoneNumber { get; set; }
 
